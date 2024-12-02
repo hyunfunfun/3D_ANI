@@ -599,60 +599,60 @@ MonoBehaviour:
     BlendShapes:
       BrowDownLeft: 0
       BrowDownRight: 0
-      BrowInnerUp: 0.1566388
+      BrowInnerUp: 0.08963054
       BrowOuterUpLeft: 0
       BrowOuterUpRight: 0
-      CheekPuff: 0.08833856
-      CheekSquintLeft: 0.013548414
-      CheekSquintRight: 0.020402968
-      EyeBlinkLeft: 0.4264324
-      EyeBlinkRight: 0.42487594
-      EyeLookDownLeft: 0.48223984
-      EyeLookDownRight: 0.48945338
-      EyeLookInLeft: 0.40446362
+      CheekPuff: 0.07072814
+      CheekSquintLeft: 0
+      CheekSquintRight: 0
+      EyeBlinkLeft: 0
+      EyeBlinkRight: 0
+      EyeLookDownLeft: 0.052582543
+      EyeLookDownRight: 0.052506197
+      EyeLookInLeft: 0.0034841162
       EyeLookInRight: 0
       EyeLookOutLeft: 0
-      EyeLookOutRight: 0.282626
+      EyeLookOutRight: 0
       EyeLookUpLeft: 0
       EyeLookUpRight: 0
       EyeSquintLeft: 0
       EyeSquintRight: 0
-      EyeWideLeft: 0
-      EyeWideRight: 0
-      JawForward: 0.008180865
+      EyeWideLeft: 0.041496154
+      EyeWideRight: 0.041427262
+      JawForward: 0.0046943943
       JawLeft: 0
-      JawOpen: 0.017870665
-      JawRight: 0.029623482
-      MouthClose: 0.013453951
-      MouthDimpleLeft: 0.013748959
-      MouthDimpleRight: 0.015883096
+      JawOpen: 0.00466537
+      JawRight: 0.016972797
+      MouthClose: 0.0052555064
+      MouthDimpleLeft: 0.013336558
+      MouthDimpleRight: 0.011309663
       MouthFrownLeft: 0
       MouthFrownRight: 0
       MouthFunnel: 0
-      MouthLeft: 0
+      MouthLeft: 0.0007325064
       MouthLowerDownLeft: 0
       MouthLowerDownRight: 0
-      MouthPressLeft: 0.10579984
-      MouthPressRight: 0.07813578
+      MouthPressLeft: 0.021700557
+      MouthPressRight: 0.012024307
       MouthPucker: 0
-      MouthRight: 0.0074124723
-      MouthRollLower: 0.04924511
-      MouthRollUpper: 0.007405766
+      MouthRight: 0
+      MouthRollLower: 0.033542804
+      MouthRollUpper: 0.00224808
       MouthShrugLower: 0
       MouthShrugUpper: 0
-      MouthSmileLeft: 0.06385789
-      MouthSmileRight: 0.046426497
-      MouthStretchLeft: 0.033832856
-      MouthStretchRight: 0.05380072
-      MouthUpperUpLeft: 0.02724784
-      MouthUpperUpRight: 0.02901049
-      NoseSneerLeft: 0.09084806
-      NoseSneerRight: 0.12590481
-      TongueOut: 0.000011339684
-    HeadPosition: {x: 0.107305765, y: -0.16493367, z: -0.3331449}
-    HeadOrientation: {x: -0.47913834, y: -0.25718707, z: 0.30609408, w: 0.78140116}
-    LeftEyeOrientation: {x: -0.14838423, y: -0.085254416, z: -0.012840915, w: -0.9851644}
-    RightEyeOrientation: {x: -0.14564137, y: -0.12188818, z: -0.018084098, w: -0.9816338}
+      MouthSmileLeft: 0
+      MouthSmileRight: 0
+      MouthStretchLeft: 0.013341514
+      MouthStretchRight: 0.010820984
+      MouthUpperUpLeft: 0.0040652202
+      MouthUpperUpRight: 0.003077457
+      NoseSneerLeft: 0.0015417015
+      NoseSneerRight: 0.0054785428
+      TongueOut: 0.000014486503
+    HeadPosition: {x: 0.026075587, y: -0.18371263, z: -0.35769215}
+    HeadOrientation: {x: -0.41637725, y: -0.058879104, z: 0.17404124, w: 0.890434}
+    LeftEyeOrientation: {x: -0.016025577, y: 0.03676398, z: 0.0005896384, w: -0.9991953}
+    RightEyeOrientation: {x: -0.016059725, y: -0.0010640253, z: -0.00001709017, w: -0.9998705}
   m_SyncPresentationOffset:
     m_FrameNumber: 0
     m_Subframe:
@@ -843,9 +843,9 @@ MonoBehaviour:
     m_Directory: Assets/Takes
     m_SceneNumber: 1
     m_ShotName: New Shot
-    m_TakeNumber: 1
+    m_TakeNumber: 2
     m_Description: 
-    m_Take: {fileID: 0}
+    m_Take: {fileID: 11400000, guid: 99fd5a5128b1ff84fb006f6b3a82e1ea, type: 2}
     m_IterationBase: {fileID: 0}
     m_Director: {fileID: 1958078427}
   m_FrameRate:
@@ -864,14 +864,17 @@ PlayableDirector:
   m_GameObject: {fileID: 1958078425}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 0}
+  m_PlayableAsset: {fileID: 6101355999146831275, guid: 99fd5a5128b1ff84fb006f6b3a82e1ea, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
-  m_SceneBindings: []
+  m_SceneBindings:
+  - key: {fileID: 8120995929005545144, guid: 99fd5a5128b1ff84fb006f6b3a82e1ea, type: 2}
+    value: {fileID: 52069385794956130}
   m_ExposedReferences:
-    m_References: []
+    m_References:
+    - man: {fileID: 52069385794956130}
 --- !u!4 &1958078428
 Transform:
   m_ObjectHideFlags: 0
@@ -960,6 +963,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db8052edd37c5da4ba56c08244eb648a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &52069385794956130 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4198936350516679060, guid: 56666ab2a4b1bef4f904994ca61700f3, type: 3}
+  m_PrefabInstance: {fileID: 52069385794956128}
+  m_PrefabAsset: {fileID: 0}
 --- !u!23 &381464828253912156
 MeshRenderer:
   m_ObjectHideFlags: 0
